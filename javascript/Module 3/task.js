@@ -11,4 +11,4 @@ let topScifi = movies
     ?.sort((a, b) => b.rating - a.rating)
     ?.map((m) => `${m.title} (${m.rating})`);
 
-    console.log(topScifi)
+    // console.log(topScifi)
